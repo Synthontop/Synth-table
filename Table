@@ -11,12 +11,13 @@ getgenv().Synth = {
         ["Keybind"] = "C",
         ["KeybindMode"] = "Toggle", -- Toggle or Hold
         ["Delay"] = 0.1,
-        ["Method"] = "MouseClick", -- MouseClick or Tool
+        ["Method"] = "Tool", -- MouseClick or Tool
     },
 
     ["Prediction"] = {
         ["Enabled"] = true,
-        ["Prediction"] = 0.16
+        ["Prediction"] = 0.16,
+        ["AutoPrediction"] = true
     },
 
     ["Checks"] = {
