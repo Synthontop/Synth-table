@@ -1,0 +1,52 @@
+getgenv().Synth = {
+    ["Main"] = {
+        ["Enabled"] = true,
+        ["Keybind"] = "C",
+        ["KeybindMode"] = "Toggle", -- Toggle or Hold
+        ["Delay"] = 0.1,
+        ["Method"] = "MouseClick", -- MouseClick or Tool
+    },
+
+    ["Prediction"] = {
+        ["Enabled"] = true,
+        ["Prediction"] = 0.16,
+        ["AutoPrediction"] = true 
+    },
+
+    ["FPSUnlocker"] = {
+        ["Enabled"] = true,
+        ["DesiredFPS"] = 360
+    },
+
+    ["Checks"] = {
+        ["TargetKnocked"] = true,
+        ["Forcefield"] = true,
+        ["SameTeam"] = { ["Enabled"] = false },
+        ["DistanceCheck"] = {
+            ["Enabled"] = false,
+            ["MaxDistance"] = 250 -- studs
+        },
+        ["Whitelist"] = {
+            ["Enabled"] = false,
+            ["RobloxUsernames"] = {"light_block9875", "Player2"}
+        }
+    },
+
+    ["Notification"] = {
+        ["Enabled"] = true,
+        ["Execution"] = true,
+        ["ToggleOn"] = true,
+        ["ToggleOff"] = true,
+        ["HoldActivation"] = true,
+        ["ESP"] = true 
+    },
+
+    ["ESP"] = {
+        ["Enabled"] = false,
+        ["TextColor"] = Color3.fromRGB(255, 255, 255),
+        ["ShowName"] = true,
+        ["ShowDistance"] = true,
+        ["ShowHealth"] = true,
+        ["Keybind"] = "M"
+    }
+}
