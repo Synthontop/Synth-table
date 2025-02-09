@@ -1,3 +1,10 @@
+--[[ 
+Works on most games if it doesn't change the method. To make it work for Arsenal and Rivals, use MouseClick.
+Can disable prediction.
+Made by normalperson_fr12
+credit me if you put it in a server
+--]]
+
 getgenv().Synth = {
     ["Main"] = {
         ["Enabled"] = true,
@@ -9,13 +16,7 @@ getgenv().Synth = {
 
     ["Prediction"] = {
         ["Enabled"] = true,
-        ["Prediction"] = 0.16,
-        ["AutoPrediction"] = true 
-    },
-
-    ["FPSUnlocker"] = {
-        ["Enabled"] = true,
-        ["DesiredFPS"] = 360
+        ["Prediction"] = 0.16
     },
 
     ["Checks"] = {
